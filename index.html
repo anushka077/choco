@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Custom Bundle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bundle-container">
+        <h1>Get your favourite chocolate</h1>
+        <form id="bundle-form">
+            <div class="bundle-item">
+                <label for="chocolate1">Chocolate 1 - $5</label>
+                <input type="number" id="chocolate1" name="chocolate1" min="0" max="8" value="0">
+                <img src="chocolate1.jpg" alt="Chocolate 1">
+            </div>
+            <div class="bundle-item">
+                <label for="chocolate2">Chocolate 2 - $15</label>
+                <input type="number" id="chocolate2" name="chocolate2" min="0" max="8" value="0">
+                <img src="chocolate2.jpg" alt="Chocolate 2">
+            </div>
+            <div class="bundle-item">
+                <label for="chocolate3">Chocolate 3 - $5</label>
+                <input type="number" id="chocolate3" name="chocolate3" min="0" max="8" value="0">
+                <img src="chocolate3.jpg" alt="Chocolate 3">
+            </div>
+            <div class="bundle-item">
+                <label for="chocolate4">Chocolate 4 - $15</label>
+                <input type="number" id="chocolate4" name="chocolate4" min="0" max="8" value="0">
+                <img src="chocolate4.jpg" alt="Chocolate 4">
+            </div>
+            <div class="bundle-item">
+                <label for="chocolate5">Chocolate 5 - $5</label>
+                <input type="number" id="chocolate5" name="chocolate5" min="0" max="8" value="0">
+                <img src="chocolate5.jpg" alt="Chocolate 1">
+            </div>
+            <div class="bundle-item">
+                <label for="chocolate6">Chocolate 6 - $25</label>
+                <input type="number" id="chocolate6" name="chocolate6" min="0" max="8" value="0">
+                <img src="chocolate6.jpg" alt="Chocolate 6">
+            </div>
+
+            <div class="bundle-item">
+                <label for="chocolate7">Chocolate 7 - $5</label>
+                <input type="number" id="chocolate7" name="chocolate7" min="0" max="8" value="0">
+                <img src="chocolate7.jpg" alt="Chocolate 7">
+            </div>
+            
+            <div class="bundle-item">
+                <label for="chocolate8">Chocolate 8 - $25</label>
+                <input type="number" id="chocolate8" name="chocolate8" min="0" max="8" value="0">
+                <img src="chocolate8.jpg" alt="Chocolate 8">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="total-price">
+            <h2>Total Price: $<span id="total-price">0</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
